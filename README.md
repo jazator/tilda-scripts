@@ -29,6 +29,24 @@ Custom JavaScript scripts for Tilda (T123).
 
 </details>
 
+- **A/B test (2 blocks)** — случайно показывает блок A или B и запоминает выбор (localStorage) → файл: [`scripts/ab-test-2-blocks.js`](scripts/ab-test-2-blocks.js)
+
+<details>
+  <summary><b>A/B test (2 blocks) — подробности</b></summary>
+
+  **Что делает**  
+  Случайно показывает один из двух блоков (A или B) и сохраняет выбор в `localStorage`.  
+  При повторном визите пользователь увидит тот же вариант.
+
+  **Как настроить**  
+  1) Найди ID своих блоков Тильды.  
+  2) В файле скрипта замени значения:
+  - `A: 'rec...'`
+  - `B: 'rec...'`
+
+</details>
+
+
 ---
 
 ## Дисклеймер
