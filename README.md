@@ -16,7 +16,7 @@ Custom JavaScript scripts for Tilda (T123).
 
 ## Каталог скриптов
 
-- **SV102 clickable** — делает карточку/блок целиком кликабельным (не только кнопку) → файл: [`scripts/sv102-clickable.js`](scripts/sv102-clickable.js)
+1. **SV102 clickable** — делает карточку/блок целиком кликабельным (не только кнопку) → файл: [`scripts/sv102-clickable.js`](scripts/sv102-clickable.js)
 
 <details>
   <summary><b>SV102 clickable — подробности</b></summary>
@@ -29,7 +29,8 @@ Custom JavaScript scripts for Tilda (T123).
 
 </details>
 
-- **A/B test (2 blocks)** — случайно показывает блок A или B и запоминает выбор (localStorage) → файл: [`scripts/ab-test-2-blocks.js`](scripts/ab-test-2-blocks.js)
+
+2. **A/B test (2 blocks)** — случайно показывает блок A или B и запоминает выбор (localStorage) → файл: [`scripts/ab-test-2-blocks.js`](scripts/ab-test-2-blocks.js)
 
 <details>
   <summary><b>A/B test (2 blocks) — подробности</b></summary>
@@ -45,7 +46,6 @@ Custom JavaScript scripts for Tilda (T123).
   - `B: 'rec...'`
 
 </details>
-
 
 ---
 
