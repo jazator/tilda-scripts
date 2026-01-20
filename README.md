@@ -64,6 +64,20 @@ Custom JavaScript scripts for Tilda (T123).
 
 </details>
 
+4. **Non-RU only blocks (browser language)** — показывает заданные блоки только если язык браузера НЕ `ru` → файл: [`scripts/non-ru-only-blocks.js`](scripts/non-ru-only-blocks.js)
+
+<details>
+  <summary><b>Non-RU only blocks — подробности</b></summary>
+
+  **Что делает**  
+  Показывает указанные блоки только для пользователей, у которых язык браузера НЕ начинается с `ru` (например, `en-US`, `de-DE`).  
+  Если язык `ru` / `ru-RU` — блоки скрываются.
+
+  **Как настроить**  
+  В файле скрипта заполни массив `NON_RU_BLOCKS` своими ID блоков Тильды вида `rec123456789`.
+
+</details>
+
 ---
 
 ## Дисклеймер
