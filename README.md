@@ -98,6 +98,22 @@ Custom JavaScript scripts for Tilda (T123).
 
 </details>
 
+6. **TE225 show more cards** — скрывает карточки и показывает по кнопке BF101 заданным количеством → файл: [`scripts/te225-show-more-cards.js`](scripts/te225-show-more-cards.js)
+
+<details>
+  <summary><b>TE225 show more cards — подробности</b></summary>
+
+  **Что делает**  
+  Скрывает карточки TE225 при загрузке и показывает их по кнопке BF101 заданным количеством.
+
+  **Как настроить**  
+  В файле скрипта поменяй:
+  - `INITIAL_VISIBLE` — сколько карточек видно сразу
+  - `PER_CLICK` — сколько карточек показывать за один клик
+  - `CONTAINER_SELECTOR` / `CARD_SELECTOR` / `BUTTON_SELECTOR` — селекторы (если структура отличается)
+
+</details>
+
 ---
 
 ## Дисклеймер
